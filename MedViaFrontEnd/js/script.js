@@ -1,4 +1,4 @@
-
+    
         document.addEventListener('DOMContentLoaded', () => {
             const form = document.getElementById('medicineForm');
             const input = document.getElementById('medicineInput');
@@ -6,7 +6,7 @@
             const chatMessagesDiv = document.getElementById('chatMessages');
 
             
-            const API_ENDPOINT = 'https://localhost:7112/api/Med/info'; 
+            const API_ENDPOINT = 'https://medvia-l77u.onrender.com/api/Med/info'; 
 
             form.addEventListener('submit', async (e) => {
                 e.preventDefault();
